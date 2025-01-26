@@ -18,4 +18,6 @@
 
 ## 【セットアップ】  
 - BonDriverProxyExD：TV-TUNERが接続されたPC上でセットアップするV-TUNER制御アプリケーション  
-- BonDriverProxy.dll：TV-TUNERをネットワーク越しに使用するクライアントPCでセットアップするdll  
+- BonDriverProxy.dll：TV-TUNERをネットワーク越しに使用するクライアントPCでセットアップするdll
+
+Docフォルダにセットアップガイドがあるので参照  
