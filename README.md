@@ -17,7 +17,7 @@
  - フォーマット詳細はBonDriverProxyExD.iniファイルを参照  
 
 ## 【セットアップ】  
-- BonDriverProxyExD：TV-TUNERが接続されたPC上でセットアップするV-TUNER制御アプリケーション  
+- BonDriverProxyExD：TV-TUNERが接続されたPC上でセットアップするTV-TUNER制御アプリケーション  
 - BonDriverProxy.dll：TV-TUNERをネットワーク越しに使用するクライアントPCでセットアップするdll
 
 Docフォルダにセットアップガイドがあるので参照  
