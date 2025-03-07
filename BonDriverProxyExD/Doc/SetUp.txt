@@ -1,0 +1,27 @@
+[サーバ側の設定]
+１．導入フォルダ配下に
+	BonDriverProxyExD.exe
+	BonDriverProxyExD.ini
+	decoderDLL (libaribb25.dll等)
+	実際にtunerとアクセスするBonDriver.dllと対応するiniファイル、コントロールファイル(exe)
+	任意のフォルダを複数作成し、そこにBonDriver.dllを配置することが可能
+	その場合はBonDriverProxyExD.iniに定義する
+	柔らか好きな人は柔らかいdll
+	を置く
+
+２．sample.iniを参考にBonDriverProxyExD.iniを編集する
+
+３．タスクスケジューラー等でBonDriverProxyExD.exeを起動
+
+
+[クライアント側の設定]
+１．クライアント側BonDriverアプリ(TVTest EDCB等)の所定フォルダに
+	サーバ側で設定したBonDriverGroupに接続する数だけ
+	BonDriver_Proxy.dllをリネームして配置する
+	リネームしたBonDriver_Proxy.dllに対応するiniファイルを編集する
+
+※ IPアドレスについて
+	1台のPCでサーバ/クライアントを共存する
+		ローカルループバックアドレス 127.0.0.1 をC/S で設定する
+	別々のPCでサーバ/クライアントをセットアップする
+		C/S 共に サーバPCに割り当てられたIPアドレスを設定する
