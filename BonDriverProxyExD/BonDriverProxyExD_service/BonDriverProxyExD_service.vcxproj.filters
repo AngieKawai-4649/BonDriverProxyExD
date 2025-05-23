@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Common">
+      <UniqueIdentifier>{c06bb19d-7e11-4242-abde-af65d571cd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\aribb25">
+      <UniqueIdentifier>{50bb7b86-53a0-422c-8489-03fd48bd30b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\BonDriver">
+      <UniqueIdentifier>{a264206b-450c-4f39-b2ad-e8c25ac5c0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Common">
+      <UniqueIdentifier>{f2585a39-93a6-41bc-9b61-8233d8f1a818}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\src\StringUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BonDriverProxyExD\src\BonDriverProxyExD.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BonDriverProxyExD\inc\BonDriverProxyExD.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\aribb25\IB25Decoder.h">
+      <Filter>ヘッダー ファイル\aribb25</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\BonDriver\IBonDriver.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\BonDriver\IBonDriver2.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\BonDriver\IBonDriver3.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\Common\BdpPacket.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\Common\Common.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\Common\StringUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BonDriverProxyExD_service.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="BonDriverProxyExD_service.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
