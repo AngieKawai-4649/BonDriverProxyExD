@@ -16,11 +16,13 @@
  ５．iniファイルフォーマット変更  
  ６．BonDriver.dllを格納するフォルダを複数設定可能とした  
  ７．Windows Service用プログラムを復活した (2025/5/23)  
+    ※ iniファイル名をBonDriverProxyExD_service.ini(exeファイル名.ini にすること)  
 
  - フォーマット詳細はBonDriverProxyExD.iniファイルを参照  
 
 ## 【セットアップ】  
-- BonDriverProxyExD：TV-TUNERが接続されたPC上でセットアップするTV-TUNER制御アプリケーション  
-- BonDriverProxy.dll：TV-TUNERをネットワーク越しに使用するクライアントPCでセットアップするdll
+- BonDriverProxyExD：TV-TUNERが接続されたPC上でセットアップするTV-TUNER制御アプリケーション
+- BonDriverProxyExD_service：Windows Service用TV-TUNER制御アプリケーション
+- BonDriverProxy.dll：TV-TUNERをネットワーク越しに使用するクライアントPCでセットアップするdll  
 
 Docフォルダにセットアップガイドがあるので参照  
